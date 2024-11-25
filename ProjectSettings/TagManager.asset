@@ -17,6 +17,7 @@ TagManager:
   - Dirt (Static)
   - Wood
   - Ground
+  - Monster
   layers:
   - Default
   - TransparentFX

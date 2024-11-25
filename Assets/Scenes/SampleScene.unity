@@ -1106,6 +1106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corn-Walking
       objectReference: {fileID: 0}
+    - target: {fileID: 426276125789156457, guid: 40bbc21cd00e84c91bf6a11ddeedb543,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 3724817982341416570, guid: 40bbc21cd00e84c91bf6a11ddeedb543,
         type: 3}
       propertyPath: m_LocalScale.x
