@@ -11,7 +11,7 @@ public class MonsterControlScript : MonoBehaviour
 
     private Transform playerTransform;
     private float monsterTimer = 0f;
-    private bool chasePlayer = false;
+    [SerializeField] private bool chasePlayer = false;
     private float randomYRotation = 0f;
 
     private void Start()
