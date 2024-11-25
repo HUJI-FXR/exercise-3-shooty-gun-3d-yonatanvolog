@@ -16,7 +16,13 @@ public class MovementScript3D : MonoBehaviour
         Vector3 newVelocity = rb.velocity;
         newVelocity.x = velocity.x;
         newVelocity.z = velocity.z;
-        newVelocity.y = rb.velocity.y; // Preserve the current vertical velocity
+
+        // Only modify the y velocity if the monster is grounded
+        if (isGrounded)
+        {
+            newVelocity.y = velocity.y;
+        }
+
         rb.velocity = newVelocity;
     }
 
