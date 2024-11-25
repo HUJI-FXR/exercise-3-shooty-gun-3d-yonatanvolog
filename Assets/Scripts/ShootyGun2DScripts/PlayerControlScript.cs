@@ -4,7 +4,7 @@ public class PlayerControlScript : MonoBehaviour
 {
     [SerializeField] private MovementScript movementScript;
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float jumpForce = 1f;
 
     private void Update()
     {
