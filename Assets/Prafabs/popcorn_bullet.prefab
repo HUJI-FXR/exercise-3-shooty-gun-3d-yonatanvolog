@@ -147,5 +147,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTag: Monster
-  minDamage: 2
-  maxDamage: 2
+  minDamage: 10
+  maxDamage: 10

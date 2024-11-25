@@ -668,6 +668,19 @@ MonoBehaviour:
   playerTag: Player
   minDamage: 5
   maxDamage: 15
+--- !u!114 &1482378272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482378262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37a54f0e9d6efa44acb5cea7c1a9ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterRenderer: {fileID: 2113975188}
 --- !u!1001 &1532154326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1209,6 +1222,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1482378271}
+    - targetCorrespondingSourceObject: {fileID: 426276125789156457, guid: 40bbc21cd00e84c91bf6a11ddeedb543,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482378272}
   m_SourcePrefab: {fileID: 100100000, guid: 40bbc21cd00e84c91bf6a11ddeedb543, type: 3}
 --- !u!1 &1881090241
 GameObject:
@@ -1403,6 +1420,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 439bcaff0f05ccd45b26bd4c26a039b0, type: 3}
+--- !u!137 &2113975188 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2430485283919444127, guid: 40bbc21cd00e84c91bf6a11ddeedb543,
+    type: 3}
+  m_PrefabInstance: {fileID: 1850359364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8912804954757940468
 PrefabInstance:
   m_ObjectHideFlags: 0

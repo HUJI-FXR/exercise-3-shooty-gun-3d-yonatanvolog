@@ -10,6 +10,11 @@ public class LifeTotalScript : MonoBehaviour
         lifeTotal = initialLifeTotal;
     }
 
+    public float GetInitialLifeTotal()
+    {
+        return initialLifeTotal;
+    }
+    
     public void TakeDamage(float damage)
     {
         lifeTotal -= damage;
